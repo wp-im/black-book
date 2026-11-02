@@ -3,7 +3,7 @@ Contributors: codex
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.0
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -27,6 +27,9 @@ Choose a featured book and headings in Customizer, adjust 26 palette roles and e
 Black Book is distributed under GPLv2 or later, derived from Black Theme 0.3.2 and Frameword Lite 1.0.5 by Roman Fink. Asset notices are retained in ASSET-LICENSES.md and assets. Demo covers are separate project fixtures, not activation-time theme content.
 
 == Changelog ==
+
+= 0.1.1 =
+Resolve the default book archive action within the current Multisite subsite.
 
 = 0.1.0 =
 Publisher homepage, native editable catalog integration, uncropped 5:8 covers, responsive book details and archives, 26 color controls and Publisher Statement widgets.

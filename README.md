@@ -1,6 +1,6 @@
 # Black Book
 
-Version 0.1.0. A monochrome, reading-first WordPress classic theme for a small publisher. Derived from Black Theme 0.3.2; install as its own `black-book` theme, not over another theme.
+Version 0.1.1. A monochrome, reading-first WordPress classic theme for a small publisher. Derived from Black Theme 0.3.2; install as its own `black-book` theme, not over another theme.
 
 ## Owner Controls
 

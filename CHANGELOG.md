@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 - 2026-11-02
+
+- Resolve the default book archive action inside the current Multisite subsite.
+
 ## 0.1.0 - 2026-10-08
 
 - Derive a publisher variant from Black Theme 0.3.2, retaining GPL attribution and native classic reading templates.

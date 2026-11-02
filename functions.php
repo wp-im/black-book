@@ -6,7 +6,7 @@
  */
 
 if ( ! defined( 'BLACK_BOOK_VERSION' ) ) {
-	define( 'BLACK_BOOK_VERSION', '0.1.0' );
+	define( 'BLACK_BOOK_VERSION', '0.1.1' );
 }
 
 require_once get_theme_file_path( 'inc/publications.php' );
@@ -44,7 +44,15 @@ if ( ! function_exists( 'black_book_defaults' ) ) {
  * @return string
  */
 function black_book_action_url( $url ) {
-	return 0 === strpos( $url, '#' ) ? home_url( '/' ) . $url : $url;
+	if ( 0 === strpos( $url, '#' ) ) {
+		return home_url( '/' ) . $url;
+	}
+
+	if ( 0 === strpos( $url, '/' ) && 0 !== strpos( $url, '//' ) ) {
+		return home_url( $url );
+	}
+
+	return $url;
 }
 
 /**
